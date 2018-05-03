@@ -1,0 +1,15 @@
+.luv-nav {
+    margin-right:18px;
+    margin-left:12px;
+    color:'#999';
+    height:30px;
+    .next-menu-content{
+        display: flex !important;
+    }
+}
+.search-bar{
+    display: flex;
+    .next-search{
+        display: flex !important;
+    }
+}
