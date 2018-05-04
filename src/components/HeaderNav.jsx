@@ -82,7 +82,7 @@ export default class HeaderNav extends Component {
 const styles = {
     headerNav:{
         display:"flex",
-        width:"1000px",
+        width:"1032px",
         height:'52px',
         padding:'0 16px',
         margin:'0 auto',

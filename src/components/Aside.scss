@@ -1,0 +1,64 @@
+.GlobalSideBar{
+    -webkit-box-flex:1;
+    flex: 1;
+    font-size: 14px;
+    .Card{
+        margin-bottom:10px;
+        overflow: hidden;
+        border-radius: 2px;
+        box-shadow: 0 1px 3px rgba(26,26,26,.1);
+        box-sizing: border-box;
+        background: #fff;
+        .categoryList{
+            display: flex;
+            margin: 20px 0 -5px;
+            padding: 0 10px;
+            flex-wrap: wrap;
+            .categoryItem{
+                width: 33%;
+                display: flex;
+                margin-bottom: 25px;
+                .Button{
+                    display: flex;
+                    -webkit-box-flex: 1;
+                    flex: 1;
+                    flex-direction:column;
+                    -webkit-box-align:center;
+                    align-items: center;
+                    position: relative;
+                    cursor: pointer;
+                    .GlobalSideBar-categoryIcon{
+                        display: flex;
+                        justify-content: center;
+                        -webkit-box-align: end;
+                        align-items: flex-end;
+                        width: 25px;
+                        height: 25px;
+                        margin-bottom: 10px;
+                    }
+                    .GlobalSideBar-categoryLabel{
+                        font-size: 15px;
+                        color: #8590a6;
+                    }
+                }
+                .Button--plain{
+                    border:none;
+                    border-radius: 0;
+                    background-color: transparent;
+                }
+            }
+        }
+        .navList{
+            width: 100%;
+            padding: 8px 0;
+            .next-nav-item{
+                color:#8590a6;
+                background: #fff;
+                line-height: 40px;
+                .next-icon{
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
